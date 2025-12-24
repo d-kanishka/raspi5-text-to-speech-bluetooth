@@ -201,7 +201,7 @@ Test it with parameters :
 espeak-ng -s 140 -p 50 -a 150 "Hi, Hello, This is Kanishka, speaking through the Raspberry Pi 5 via Bluetooth"
 ```
 
-Download `text_test.py` :
+Download `text_test.py` & run :
 
 ```bash
 python text_test.py
