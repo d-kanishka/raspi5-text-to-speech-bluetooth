@@ -178,3 +178,31 @@ run the python file :
 python3 audio_test.py
 ```
 You will get audio output through the Bluetooth speaker.
+
+## Text to Speech
+
+ Install eSpeak NG:
+```bash
+sudo apt install -y espeak-ng
+```
+
+Test it with :
+```bash
+espeak-ng "Hi, Hello, This is Kanishka, speaking through the Raspberry Pi 5 via Bluetooth"
+```
+
+- Parameters :
+   - `-s 140` → Speed (words per minute)
+   - `-p 50`  → Pitch
+   - `-a 150` → Volume
+
+Test it with parameters :
+```bash
+espeak-ng -s 140 -p 50 -a 150 "Hi, Hello, This is Kanishka, speaking through the Raspberry Pi 5 via Bluetooth"
+```
+
+Download `text_test.py` :
+
+```bash
+python text_test.py
+```
