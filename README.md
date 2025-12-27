@@ -206,3 +206,7 @@ Download `text_test.py` & run :
 ```bash
 python text_test.py
 ```
+
+## Output
+
+https://github.com/user-attachments/assets/ed7b987d-0ebd-4f56-b4bc-f4afe1e6fd53
